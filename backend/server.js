@@ -10,7 +10,7 @@ app.use(express.json()) ;
 
 //course routes now 
 const courseRoutes = require('./routes/courseRoutes') ; 
-app.use('/api/routes/', courseRoutes) ; 
+app.use('/api/courses/', courseRoutes) ; 
 
 app.listen(PORT, () => {
     console.log("Listening on port" + PORT) ; 
